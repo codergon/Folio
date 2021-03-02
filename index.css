@@ -187,11 +187,11 @@ body {
   left: 0;
   z-index: 10;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: flex;
-  color: #000;
+  color: #fff;
   position: fixed;
-  background: #fff;
+  background: #000;
   font-family: major;
   align-items: center;
   flex-direction: column;
@@ -218,6 +218,7 @@ body {
 .small_menu_nav {
   display: flex;
   flex-direction: column;
+  margin-bottom: 7rem;
 }
 .menu_options_small .scroll_text_cont2 {
   bottom: 1.5rem;
@@ -228,9 +229,23 @@ body {
   color: inherit;
   font-size: 2rem;
   margin: 2rem 0;
+  letter-spacing: 0.7rem;
   text-decoration: none;
-  font-style: italic;
-  text-decoration: line-through 0.5px red;
+}
+.small_menu_nav a span {
+  padding-bottom: 1rem;
+  border-bottom: dashed 1px red;
+}
+.menu_img {
+  width: 55vmin;
+  height: 55vmin;
+  bottom: 2rem;
+  margin-left: 1vmin;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-image: url(img/akay13.png);
+  /* align-self: flex-end; */
 }
 
 /* ******************* */
