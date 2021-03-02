@@ -26,4 +26,17 @@ $(document).ready(function () {
       $(this).css({ left: check + "px" });
     }
   });
+
+  $(".menu-but").click(function (e) {
+    if ($(".main").width() <= 520) {
+      $(".menu_options_small").toggleClass("noshow");
+      $(".logo").toggleClass("fix_logo");
+    } else {
+      $(".menu_options").toggleClass("noshow");
+    }
+  });
+  $(".close_menu").click(function (e) {
+    $(".menu_options_small").toggleClass("noshow");
+    $(".logo").toggleClass("fix_logo");
+  });
 });
