@@ -621,6 +621,10 @@
     display: flex;
     align-items: center;
   }
+  .abtinsp {
+    font-size: 3.8vw;
+    margin-left: 10vw;
+  }
   /* ************************* */
   .scroll_text_cont {
     padding: 0px;

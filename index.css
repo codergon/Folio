@@ -573,7 +573,7 @@ canvas {
   position: absolute;
   background-size: cover;
   background-position: center;
-  background-image: url(img/diogo-brandao-iZQasxibkjE-unsplash.jpg);
+  background-image: url(img/diogo-brandao-iZQasxibkjE-unsplash_1.webp);
 }
 
 .pho_border {
@@ -842,7 +842,7 @@ canvas {
 .item2 .item_image {
   background-image: url(img/adidas2.jpg);
   background-image: url(img/cq5dam.jpg);
-  background-image: url(img/luke_beretta_banking_app_design.gif);
+  background-image: url(img/luke_beretta_banking_app_design.webp);
 }
 
 .item .item_text {
@@ -890,13 +890,9 @@ canvas {
   box-sizing: border-box;
   white-space: nowrap;
   line-height: 5.7vmin;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
   margin: 0px 40px 0px 20px;
-}
-
-.abtinsp p span {
-  font-size: 3vmin;
 }
 
 .insp_cont {
