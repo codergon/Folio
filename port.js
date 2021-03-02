@@ -28,12 +28,16 @@ $(document).ready(function () {
   });
 
   $(".menu-but").click(function (e) {
-    if ($(".main").width() <= 520) {
+    if ($(".main").width() <= 810) {
       $(".menu_options_small").toggleClass("noshow");
       $(".logo").toggleClass("fix_logo");
     } else {
       $(".menu_options").toggleClass("noshow");
     }
+  });
+  $(".small_menu_nav a").click(function (e) {
+    $(".menu_options_small").toggleClass("noshow");
+    $(".logo").toggleClass("fix_logo");
   });
   $(".close_menu").click(function (e) {
     $(".menu_options_small").toggleClass("noshow");

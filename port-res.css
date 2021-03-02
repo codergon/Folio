@@ -31,6 +31,7 @@
     padding: 0rem;
     margin-top: 0.5rem;
     font-size: 0.72rem;
+    font-size: 0.72rem;
     line-height: 1rem;
     margin-right: 1.9rem;
   }
@@ -195,8 +196,8 @@
   .item .item_text {
     padding: 0px;
     z-index: 5;
-    margin-top: 13rem;
-    font-size: 3rem;
+    margin-top: 0rem;
+    font-size: 2rem;
     line-height: 2rem;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 0.08rem #000;
@@ -378,6 +379,7 @@
   }
   .main .txt .d2 {
     font-size: 1rem;
+    font-size: 4vmin;
     margin-top: 1.5rem;
   }
   .pho {
@@ -486,6 +488,7 @@
   }
   .about_sect .row3 .abtme {
     font-size: 0.86rem;
+    font-size: 3.5vmin;
     margin-bottom: 3rem;
   }
   .about_sect .row3 .skills {
@@ -512,8 +515,10 @@
     padding: 0rem;
     margin-top: 0.5rem;
     font-size: 0.72rem;
+    font-size: 2.85vmin;
     line-height: 1rem;
     margin-right: 1.8rem;
+    margin-right: 7vmin;
   }
   /* ******************************* */
   .projects {
@@ -563,7 +568,7 @@
   .side-nav .list {
     width: auto;
     padding: 0;
-    margin: 0 1.65rem;
+    margin: 0 0.65rem;
     font-family: lato2;
   }
   .activelist span {
@@ -577,9 +582,12 @@
   .slid_elems {
     overflow-x: scroll;
   }
+  .inn_slide {
+    padding-left: 0;
+  }
   .inn_slide .item {
     height: 100%;
-    width: 100vw;
+    width: 98vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -592,8 +600,9 @@
   .item .item_text {
     padding: 0px;
     z-index: 5;
-    margin-top: 13rem;
+    margin-top: 0rem;
     font-size: 3rem;
+    font-size: 12vw;
     line-height: 2rem;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 0.08rem #000;
@@ -604,7 +613,7 @@
   .item .item_text .lil_det {
     font-size: 1rem;
     margin-top: 20px;
-    font-family: lato4;
+    font-family: lato3;
   }
   .cursy {
     z-index: 2;
