@@ -1,0 +1,178 @@
+.about_sect {
+  width: 100vw;
+  margin-top: 150px;
+}
+
+.about_grid {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 2rem 3rem;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about_sect .row1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  /*text-transform: uppercase;*/
+}
+
+.about_sect .row1 .r1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 25px;
+}
+
+.about_sect .row1 .r1 h1 {
+  letter-spacing: 3px;
+  margin: 0px;
+  font-size: 3rem;
+  padding-top: 0px;
+  line-height: 6rem;
+  padding-top: 0.9rem;
+  font-family: lato2;
+}
+
+.about_sect .row1 .r1 .exp {
+  /*font-size: 0.95rem;*/
+  font-size: 0.95rem;
+  line-height: 1rem;
+  margin-top: 0.2rem;
+  font-family: lato3;
+}
+
+.about_sect .row1 .divider {
+  width: 120px;
+  height: 2px;
+  background: #000;
+}
+
+/* About Row2
+*******************/
+.about_sect .row2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  /*text-transform: uppercase;*/
+  justify-content: center;
+}
+
+.about_sect .row2 .r2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 25px;
+}
+
+.about_sect .row2 .r2 h1 {
+  letter-spacing: 3px;
+  margin: 0px;
+  font-size: 3rem;
+  padding-top: 0px;
+  line-height: 6rem;
+  padding-top: 0.9rem;
+  font-family: lato2;
+}
+
+.about_sect .row2 .r2 .exp {
+  /*font-size: 0.95rem;*/
+  font-size: 0.95rem;
+  line-height: 1rem;
+  margin-top: 0.2rem;
+  font-family: lato3;
+}
+
+.about_sect .row2 .divider {
+  width: 200px;
+  height: 2px;
+  background: #000;
+}
+
+.about_sect .row2 .divi2 {
+  width: 300px;
+  height: 2px;
+  background: #000;
+}
+
+/* About Row3
+*******************/
+.about_sect .row3 {
+  display: flex;
+  margin-top: 3rem;
+  padding: 0 15.5vw;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about_sect .row3 .abtme {
+  font-size: 1rem;
+  line-height: 1.7rem;
+  margin-top: 0.2rem;
+  font-family: lato3;
+}
+
+.about_sect .row3 .abtme .abtme_br {
+  margin-top: 1.5rem;
+}
+
+.about_sect .row3 .abtme .resume {
+  margin-top: 1rem;
+  font-family: lato4;
+}
+
+.about_sect .row3 .abtme .resume a {
+  color: #000;
+  text-decoration: none;
+}
+
+.about_sect .row3 .abtme .resume span {
+  padding-bottom: 3px;
+  border-bottom: 1px dashed red;
+}
+
+.about_sect .row3 .skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.about_sect .row3 .skills ul,
+.about_sect .row3 .skills li {
+  margin: 0px;
+  padding: 0px;
+  /*background: red;*/
+  list-style: none;
+}
+
+.about_sect .row3 .skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.about_sect .row3 .skills ul h3 {
+  margin: 0.2rem 10px 0.4rem;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  font-family: lato4;
+  text-transform: uppercase;
+  border-bottom: dashed 1px red;
+}
+
+.about_sect .row3 .skills ul div {
+  display: flex;
+  flex-direction: row;
+}
+
+.about_sect .row3 .skills li {
+  margin: 0px 10px;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  margin-top: 0.2rem;
+  font-family: lato3;
+}

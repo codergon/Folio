@@ -1,0 +1,31 @@
+@font-face {
+  src: url(fonts/font1.ttf);
+  font-family: librebarcode;
+}
+@font-face {
+  src: url(fonts/font2.ttf);
+  font-family: librebarcode2;
+}
+@font-face {
+  src: url(fonts/font3.ttf);
+  font-family: major;
+}
+@font-face {
+  src: url(fonts/font4.ttf);
+  font-family: lato;
+}
+
+@font-face {
+  src: url(fonts/font5.ttf);
+  font-family: lato2;
+}
+
+@font-face {
+  src: url(fonts/font6.ttf);
+  font-family: lato3;
+}
+
+@font-face {
+  src: url(fonts/font7.ttf);
+  font-family: lato4;
+}

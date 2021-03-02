@@ -1,0 +1,89 @@
+.ds1{
+	bottom: 14%;
+	left: 8%;
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	background: url(icons/koko.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.ds2{
+	top: 5%;
+	right: 5%;
+	width: 40px;
+	height: 40px;
+	opacity: 0.2;
+	position: absolute;
+	background: url(icons/cup.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.ds3{
+	bottom: 10%;
+	opacity: 0.5;
+	right: 10%;
+	width: calc(20px * (131/43));
+	height: 20px;
+	position: absolute;
+	background: url(icons/koko5.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.ds4{
+	top: 70%;
+	right: 40%;
+	width: 50px;
+	height: 50px;
+	opacity: 0.3;
+	position: absolute;
+	background: url(icons/koko4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.ds5{
+	top: 15%;
+	left: 10%;
+	width: 40px;
+	height: 40px;
+	opacity: 0.3;
+	position: absolute;
+	background: url(icons/leaves.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.ds6{
+	top: 10%;
+	left: 50%;
+	width: 40px;
+	height: 40px;
+	opacity: 0.2;
+	position: absolute;
+	background: url(icons/fast-food4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.ds7{
+	top: 50%;
+	right: 20%;
+	width: 40px;
+	height: 40px;
+	opacity: 0.15;
+	position: absolute;
+	background: url(icons/noun_PalmTree_1715606.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
